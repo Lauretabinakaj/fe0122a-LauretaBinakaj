@@ -1,0 +1,24 @@
+{
+  "name": "progetto",
+  "version": "1.0.0",
+  "description": "progetto epicode s3",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass -w scss:assets/css"
+  },
+  "keywords": [
+    "bootsrap",
+    "sass"
+  ],
+  "author": "laureta",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1",
+    "postcss-cli": "^9.1.0"
+  }
+}
