@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2 id="prova">prova </h2>
+    <script>
+        //var animali = ["gatto", "cane", "cavallo"];
+
+        var animali = [
+            "cane",
+            "gatto",
+            "cavallo"
+        ];
+        document.getElementById(prova).innerHTML = animali.toString();
+        console.log("Animali :" + animali);
+        console.log("Animali :" + typeof animali);
+
+
+
+        var matricole = [
+            12,
+            45,
+            345
+        ];
+
+        console.log("Matricole: " + matricole);
+        console.log("Matricole:" + typeof matricole);
+
+        var animali1 = new Array(
+            "cane",
+            "gatto",
+            "cavallo"
+        )
+        console.log("Animali: " + animali1);
+        console.log("Animali: " + typeof animali1);
+
+        var studente = {
+            matricola: 234,
+            nome: "mario",
+            corso: "javas"
+        };
+        console.log("Studente: " + studente);
+        console.log("Studente: " + typeof studente);
+
+        //document.getElementById('prova').innerHTML = animali[2];
+    </script>
+</body>
+
+</html>

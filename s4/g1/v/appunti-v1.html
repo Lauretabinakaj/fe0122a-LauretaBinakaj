@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="it">
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="">
+
+
+    <title>prova js</title>
+</head>
+
+
+
+<!--COSA E' JAVASCRIPT?
+
+Javascript nasce, 1995, per l'esigenza di offrire un interattività maggiore con gli oggetti del
+DOM, dal team di sviluppo del browser Netscape, è un completo linguaggio di prohgrammazione per
+il front end per manipolare gli oggetti dell' </html> 
+ Questa sua genesi determina l'inizio delle caratteristiche che ancora oggi contraddistinguono
+il nostro linguaggio -->
+
+<!--
+. linguaggio normalmente letto ed eseguito con compatibilità in tutti i browser nelle ultime
+relase
+. un linguaggio lato client
+. un linguaggio per lo sviluppo front end ed i siti di applicazioni
+. un linguaggio per lo scripting
+-->
+
+<!--
+    Quindi non bisogna attivare nessun serve per leggere lo script, ma intuitivo dal browser, grazie
+    al cielo
+-->
+
+<!-- a cosa mi serve vez
+    . viene utilizzzato per strutture di programmazione ad un architettura web
+    . quindi posso utilizzare js per interagire con i tag html e regole css per elevare il grado
+    di interattività con un apagine web o di un applicazione.
+-->
+
+<!-- ricordati che:
+->html5= descrive al browser quale tipo di oggetto dovrà essere visualizzato
+->js= cosa fa l'oggetto web
+->css= impostando lo stile descrive come è l'oggetto web
+-->
+
+<body>
+    <h1 id="colore">Dizzy Drake</h1>
+
+    <button onclick="changeColor()">Clicca e fatti suonare una canzone</button>
+    <script src="./js/myscript.js"> </script>
+
+    <script>
+        document.write(somma());
+    </script>
+
+</body>
+
+
+
+<!----CREAZIONE DI UN FILE JAVASCRIPT ED ESECUZIONE SVEGLIA VEZ
+    -Gli script possono essere scritti in file esterni che devono essere integrati nel
+    progetto.
+    I file js possono contenere una singola applicazione o racchiudere più script indipendenti.
+    una volta richiamato il file lo script sarà a disposizione del progetto.
+    -->
+
+<!--
+        lo script va messo, preferibilmente, alla fine del body
+    -->
+
+
+//GESTIONE DELL' OUTPUT
+<!--
+    .S' intendono quelle istruzioni specifiche che restituiscono a display il risultato di uno script, tipicamente di un metodo
+    applicato ad un elemento
+    . ogni direttiva output ha il suo target di riferimento
+-->
+
+<!--
+LE KEYWORDS PUTA
+. esprimono un certo putno di struttura
+. var o funztion sono keyword riservate
+
+.per sintassi si intende una serie di regole utulizzate dal linguaggio di porgrammazione per
+costruire le sue strutture
+
+un numero deve essere senza apici
+il linguaggio è keysensitive quindi maisc e minsc sono due cose diverse 
+-->
+
+<!--
+    TU LA SINTASSI CORETTA LA SAI?
+    .i nomi scelti devono esser indicativi dello scopo, chiari semplici ed interpretabili
+    . no bene nominare con singole letter o numeri
+    .precisa indentazione del codice
+
+    es:
+    var mio Nome;
+    var 1Nome;
+    var mio-Nome;
+    var mioNome;
+
+    pratica migliore sarebbero una parola con minuscolo e una maiuscolo!!!
+
+    molto carino e consigliato usare un sacco di commenti ihihihihi
+    /* altro commento dentro al commento*/
+
+    le keywords vanno scritte in minuscolo senza eccezioni, tutte vez, utulizzata unicamente 
+    per descrivere che tipo di strutture da inizializzare al programma, questo è il suo unico scopo! 
+-->
+
+
+
+
+
+
+
+
+<!--VARIABILI VEZ SKIPPA TUTTO TU<--- . è una partizione di memoria dedicata alla conservazione di vaore . definita per
+    essere utilizzata nel nostro codice . quest' ultimo può essre riassegnato LA KEYWORD di variabile è var -->
+<script>
+    var nome;
+    console.log(nome);
+    var cognome = "rossi";
+    console.log(cognome);
+
+    nome = "mario";
+
+</script>
