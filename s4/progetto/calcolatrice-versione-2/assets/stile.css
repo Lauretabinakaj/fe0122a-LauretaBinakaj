@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+.sfondo {
+    background-image: url(../img/sfondo.png);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.calculator {
+ border-radius: 3px;
+ height: 1.25rem;
+ width: 3.125rem;
+ margin-top: 20rem;
+ margin-left: 1.875rem;
+ background-color: #68504f;
+ transform: scale(0.3) rotate(30grad);
+ transition: all .2s ease-in-out; 
+ z-index: 2;
+ }
+
+/* #noise {
+    position: absolute;
+    top: 2em;
+    background: url(../img/noise.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: 1;
+}*/
+
+.display-box {
+    font-family: 'Bangers', cursive;
+ background-color: #68504f;
+ border: solid #fbeeee 2px;
+ color: #fbeeee;
+ border-radius: 0.313rem;
+ width: 100%;
+ height: 65%;
+}
+
+#verde {
+    background-color: #68504f;
+    border: solid #fbeeee 3px;
+    margin-left: 0.313px;
+
+}
+.button {
+    font-family: 'Bangers', cursive;
+ background-color: #68504f;
+ color: white;
+ border: solid #fbeeee 3px;
+ width: 100%;
+ border-radius: 5px;
+ height: 70%;
+ outline: none;
+}
+.button:active {
+ background: #68504f;
+ -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+ -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+ box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.calculator:hover { 
+transform: scale(1.5); 
+border: solid #fbeeee 2px;
+border-radius: 10px;
+margin-right: 15px;
+}
+
