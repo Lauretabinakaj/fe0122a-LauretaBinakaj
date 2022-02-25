@@ -2,11 +2,11 @@
 
 
 .sfondo {
-    background-image: url(../img/sfondo.png);
-    background-position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: cover;
+background-image: url(../img/sfondo.png);
+background-position: relative;
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
 }
 
 .calculator {
@@ -21,18 +21,8 @@
  z-index: 2;
  }
 
-/* #noise {
-    position: absolute;
-    top: 2em;
-    background: url(../img/noise.png) top left repeat;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    z-index: 1;
-}*/
-
 .display-box {
-    font-family: 'Bangers', cursive;
+font-family: 'Bangers', cursive;
  background-color: #68504f;
  border: solid #fbeeee 2px;
  color: #fbeeee;
@@ -42,13 +32,13 @@
 }
 
 #verde {
-    background-color: #68504f;
-    border: solid #fbeeee 3px;
-    margin-left: 0.313px;
+background-color: #68504f;
+border: solid #fbeeee 3px;
+margin-left: 0.313px;
 
 }
 .button {
-    font-family: 'Bangers', cursive;
+font-family: 'Bangers', cursive;
  background-color: #68504f;
  color: white;
  border: solid #fbeeee 3px;
@@ -70,4 +60,3 @@ border: solid #fbeeee 2px;
 border-radius: 10px;
 margin-right: 15px;
 }
-
