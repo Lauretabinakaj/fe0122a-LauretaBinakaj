@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.body {
+background-image: url(../img/sfondo-index1.png);
+    background-position: relative;
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+
+}
+
+.madre {
+    transform: scale(1.5);
+    padding-left: 735px;
+    padding-top: 130px;
+    color: antiquewhite;
+    font-family: 'Bangers', cursive;
+}
+
+.baby-putin {
+    transform: scale(1.5);
+    padding-left: 325px;
+    padding-top: 200px;
+    color: antiquewhite;
+    font-family: 'Bangers', cursive;
+}
+
+.data {
+    transform: scale(1);
+
+    color: antiquewhite;
+    font-family: 'Bangers', cursive;
+}
+
+.btn {
+ color: antiquewhite;
+    text-decoration: none;
+  background: none;
+    border: none;
+    transform: scale(2);
+    font-family: 'Bangers', cursive;
+    padding-left: 620px;
+    padding-top: 165px;
+}
+
+/*introduzione-gioco*/
+
+.body-2 {
+    background-color: #e8a87c;
+    transform: scale(2.5);
+    text-align: center;
+    padding-left: 277px;
+    padding-top: 190px;
+    color: antiquewhite;
+    font-family: 'Bangers', cursive;
+}
+
+.btn-pi {
+    background-color: #e27d60;
+    color: #41b3a3;
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    text-align: center;
+border: none;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: 40px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 35px;
+padding-left: 35px;
+}
+
+/*memory*/
