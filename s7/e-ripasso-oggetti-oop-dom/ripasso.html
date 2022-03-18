@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+gli array, date, math sono oggetti da esempio
+le keyword ofndamentale dell' oggetto è new in particolare rifermiento a tsringhe numeri e booleani
+
+comunemente si usa la keyword const
+
+proprietà e metodi
+1. deifinite dai nomi associati ai valori
+2. definito da una funzione anonima 
+
+metodo costruttore: dato un certo oggetto 
+possiamo gestire in maniera piu flessibile l'oggetto
+creiiamo i modelli dei parametri e associamo delle variabili con deivalori smepre attraverso le classi e gli id
+il costrutttore si nomina in maiuscolo
+
+come aggiungere nuova proprietà nel costruttore
+
+PROTORIPO
+richiama questo metodo di riferimento che può essere utilizzato per aggiungere proprietà e metodi ad un costruttore esistente
+
+
+
+    -->
+
+    <script>
+
+        //const utente = {
+        //nome: "Ciccio",
+        //cognome: "Bello",
+        //anni: "18",
+
+        //datiUtente: function () {
+        // return this.nome + "" + this.anni
+        // }
+        //}
+
+        //document.getElementById('testo').innerHTML = utente.nome + "" + utente.cognome
+
+        function Animali(specie, colore, razza) {
+            this.specie = specie
+            this.colore = colore
+            this.razza = razza
+        }
+
+        //implementazioni del costruttore
+        Animali.prototype.altezza = 72
+        Animali.prototype.datiAnimali = function () {
+            return this.colore + this.altezza
+        }
+
+        const gatto = new Animali("mammiferi", "grigio", "carlino")
+        const cane = new Animali("mammidferi", "marrone", "boh")
+
+        gatto.genere = "femmina"
+
+
+        // gatto.tipo = function () {
+        // return this.genere + this.colore +
+        //}
+
+        document.getElementById('testo').innerHTML = gatto.datiAnimali()
+
+
+
+
+    </script>
+</body>
+
+</html>

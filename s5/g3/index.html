@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <p id="saluto">
+
+        </p>
+    </div>
+    <script>
+        //cosa è un oggetto
+        //creare un oggetto, leggere proprietà: le proprietà sono le variabili, in questo caso nome,
+        //mentre saluta invece è un metodo: sono le funzioni di particolari oggetti
+        //dot notation e bracket notation: parentesi quadrate (bn)
+        //aggiornare un oggetto
+        //la parola chiave this
+
+        //oggetto collezione di dati in relazione tra di loro
+
+        // const si usa per dichiarare un nuovo array, oggetto o funzione: perchè non definisce un valore
+        //costante, ma un riferimento costante ad un valore
+
+        const key = 'genere'
+
+        //non si può cambiare persona perchè e una costante, ma si può cambiare il contenuto all' interno
+        //della proprietà
+
+        const persona = {
+            nome: 'Anna',
+            cognome: 'Belli',
+            anni: '21',
+            genere: 'femmina',
+            interessi: ['sciare', 'disegnare', 'scrivere'],
+            indirizzo: {
+                via: 'Piazza Roma',
+                cap: '30023',
+                provincia: 'VE',
+            },
+            saluta: function () {
+                document.getElementById('saluto').innerHTML =
+                    'Ciao sono ${persona.nome} e ho {$persona.anni}'
+
+                return this.nome + this.cognome
+
+                //un metodo object, fa riferimento all'oggetto.this
+                //Da solo, si riferisce all'oggetto globale.this
+                //In una funzione, si riferisce all'oggetto globale.this
+                //In una funzione, in modalità rigorosa, è .thisundefined
+                //In un evento, si riferisce all'elemento che ha ricevuto l'evento.this
+                //Metodi come , e possono fare riferimento a qualsiasi oggetto.
+
+                //NON E UNA VAR MA UNA KEYWORD
+
+            }
+        }
+
+
+
+        //console.log(persona.interessi[2])
+
+        //console.log(persona[chiave]) bisogna usare la bracketnotation, se usiamo il
+        //dotnotation cerca il metodo dentro la variabile
+
+        //console.log(persona['nome'])[1]
+        //console.log(persona['indirizzo']['cap'])
+
+
+        persona.nome = 'Paolo'
+
+        console.log(persona.nome)
+
+        //ora impariamo ad usare this vez
+        //oggetto che esegue la funzione corrente
+
+
+    </script>
+</body>
+
+</html>
